@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<spill>
+		<navn>7 Wonders</navn>
+		<id>68448</id>
+		<utgittår>2010</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic860217.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic860217_t.jpg</thumb>
+		<antallspillere>2 - 7</antallspillere>
+		<spilletid>30</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Acquire</navn>
+		<id>5</id>
+		<utgittår>1962</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic342163.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic342163_t.jpg</thumb>
+		<antallspillere>3 - 6</antallspillere>
+		<spilletid>90</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Ad Astra</navn>
+		<id>38343</id>
+		<utgittår>2009</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic383353.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic383353_t.jpg</thumb>
+		<antallspillere>3 - 5</antallspillere>
+		<spilletid>60</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Bang! The Bullet!</navn>
+		<id>30933</id>
+		<utgittår>2007</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic1198011.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic1198011_t.jpg</thumb>
+		<antallspillere>3 - 8</antallspillere>
+		<spilletid>45</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Battleship Movie Edition Game</navn>
+		<id>123828</id>
+		<utgittår>2012</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic1293566.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic1293566_t.jpg</thumb>
+		<antallspillere>1 - 2</antallspillere>
+		<spilletid></spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Betrayal at House on the Hill</navn>
+		<id>10547</id>
+		<utgittår>2004</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic828598.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic828598_t.jpg</thumb>
+		<antallspillere>3 - 6</antallspillere>
+		<spilletid>60</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Ca$h 'n Gun$</navn>
+		<id>19237</id>
+		<utgittår>2005</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic87523.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic87523_t.jpg</thumb>
+		<antallspillere>4 - 6</antallspillere>
+		<spilletid>30</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Carcassonne</navn>
+		<id>822</id>
+		<utgittår>2000</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic166867.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic166867_t.jpg</thumb>
+		<antallspillere>2 - 5</antallspillere>
+		<spilletid>45</spilletid>
+		<beskrivelse></beskrivelse>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Carcassonne: Traders &amp; Builders</navn>
+		<id>5405</id>
+		<utgittår>2003</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic1586219.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic1586219_t.jpg</thumb>
+		<antallspillere>2 - 6</antallspillere>
+		<spilletid>60</spilletid>
+		<beskrivelse></beskrivelse>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Citadels</navn>
+		<id>478</id>
+		<utgittår>2000</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic636868.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic636868_t.jpg</thumb>
+		<antallspillere>2 - 8</antallspillere>
+		<spilletid>90</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Cluedo</navn>
+		<id>1294</id>
+		<utgittår>1949</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic884234.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic884234_t.jpg</thumb>
+		<antallspillere>3 - 6</antallspillere>
+		<spilletid>45</spilletid>
+		<beskrivelse></beskrivelse>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Discworld: Ankh-Morpork</navn>
+		<id>91312</id>
+		<utgittår>2011</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic1062739.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic1062739_t.jpg</thumb>
+		<antallspillere>2 - 4</antallspillere>
+		<spilletid>60</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Dixit</navn>
+		<id>39856</id>
+		<utgittår>2008</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic455883.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic455883_t.jpg</thumb>
+		<antallspillere>3 - 6</antallspillere>
+		<spilletid>30</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+	</spill>
+	<spill>
+		<navn>Dominion</navn>
+		<id>36218</id>
+		<utgittår>2008</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic394356.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic394356_t.jpg</thumb>
+		<antallspillere>2 - 4</antallspillere>
+		<spilletid>30</spilletid>
+		<beskrivelse></beskrivelse>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Dungeon Lords</navn>
+		<id>45315</id>
+		<utgittår>2009</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic569340.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic569340_t.jpg</thumb>
+		<antallspillere>2 - 4</antallspillere>
+		<spilletid>90</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Forbidden Island</navn>
+		<id>65244</id>
+		<utgittår>2010</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic646458.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic646458_t.jpg</thumb>
+		<antallspillere>2 - 4</antallspillere>
+		<spilletid>30</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Galaxy Trucker</navn>
+		<id>31481</id>
+		<utgittår>2007</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic486219.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic486219_t.jpg</thumb>
+		<antallspillere>2 - 4</antallspillere>
+		<spilletid>60</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Guards! Guards! A Discworld Boardgame</navn>
+		<id>92776</id>
+		<utgittår>2011</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic1393432.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic1393432_t.jpg</thumb>
+		<antallspillere>2 - 6</antallspillere>
+		<spilletid>120</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Metropoli</navn>
+		<id>66611</id>
+		<utgittår>2010</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic1228378.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic1228378_t.jpg</thumb>
+		<antallspillere>3 - 6</antallspillere>
+		<spilletid>90</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Munchkin Cthulhu</navn>
+		<id>25071</id>
+		<utgittår>2007</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic162995.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic162995_t.jpg</thumb>
+		<antallspillere>3 - 6</antallspillere>
+		<spilletid>90</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Pack &amp; Stack</navn>
+		<id>37120</id>
+		<utgittår>2008</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic495850.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic495850_t.jpg</thumb>
+		<antallspillere>3 - 6</antallspillere>
+		<spilletid>20</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>The Settlers of Catan</navn>
+		<id>13</id>
+		<utgittår>1995</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic268839.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic268839_t.jpg</thumb>
+		<antallspillere>3 - 4</antallspillere>
+		<spilletid>90</spilletid>
+		<beskrivelse></beskrivelse>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Small World</navn>
+		<id>40692</id>
+		<utgittår>2009</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic428828.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic428828_t.jpg</thumb>
+		<antallspillere>2 - 5</antallspillere>
+		<spilletid>80</spilletid>
+		<beskrivelse></beskrivelse>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Thunderstone</navn>
+		<id>53953</id>
+		<utgittår>2009</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic544780.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic544780_t.jpg</thumb>
+		<antallspillere>1 - 5</antallspillere>
+		<spilletid>60</spilletid>
+		<beskrivelse></beskrivelse>
+		<destroyed>false</destroyed>
+		<match></match>
+	</spill>
+	<spill>
+		<navn>Tsuro of the Seas</navn>
+		<id>124172</id>
+		<utgittår>2012</utgittår>
+		<bilde>http://cf.geekdo-images.com/images/pic1301853.jpg</bilde>
+		<thumb>http://cf.geekdo-images.com/images/pic1301853_t.jpg</thumb>
+		<antallspillere>2 - 8</antallspillere>
+		<spilletid>30</spilletid>
+		<beskrivelse></beskrivelse>
+		<match>1</match>
+	</spill>
+</root>
