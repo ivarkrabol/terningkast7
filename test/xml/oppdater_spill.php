@@ -30,56 +30,61 @@
 <pre>
 <?php
 
-    $spill_bgg_simplexml = simplexml_load_file('http://www.boardgamegeek.com/xmlapi/collection/terningkast7?own=1');
+    $bgg_simplexml = simplexml_load_file('http://www.boardgamegeek.com/xmlapi/collection/terningkast7?own=1');
     
     
-    $spill_local_simplexml = simplexml_load_file('spill.xml');
+    $local_simplexml = simplexml_load_file('spill.xml');
     
+    
+    $a = 0; // Added games counter
+    $r = 0; // Removed games counter
     
     $spillutvalg = array();
-    foreach($spill_bgg_simplexml->item as $spill_bgg_item) {
-        $bgg_stats = $spill_bgg_item->stats->attributes();
+    foreach($bgg_simplexml->item as $bgg_item) {
+        $bgg_stats = $bgg_item->stats->attributes();
         
-        $spill_spill = array();
+        $spill = array();
         
-        print_r("Game: $spill_bgg_item->name, id: {$spill_bgg_item->attributes()->objectid}\n");
-        foreach($spill_local_simplexml->spill as $spill_local_spill) {
-            $new = true;
-            $spill_local_spill->match = false;
-            if ("$spill_local_spill->id" == "{$spill_bgg_item->attributes()->objectid}") {
-                print_r("Found matching id: $spill_local_spill->navn\n");
+        echo "Game: $bgg_item->name, id: {$bgg_item->attributes()->objectid}\n";
+        $new = true;
+        foreach($local_simplexml->spill as $local_spill) {
+            if ("$local_spill->id" == "{$bgg_item->attributes()->objectid}") {
+                echo "Found match: $local_spill->navn\n";
                 $new = false;
-                $spill_spill = $spill_local_spill;
-                $spill_local_spill->match = true;
+                $spill = $local_spill;
                 break;
             }
         }
         if($new) {
-            print_r("No matches, adding new game.\n");
-            $spill_spill = array(
-                "navn" => $spill_bgg_item->name,
-                "id" => $spill_bgg_item->attributes()->objectid,
-                "utgittår" => $spill_bgg_item->yearpublished,
-                "bilde" => $spill_bgg_item->image,
-                "thumb" => $spill_bgg_item->thumbnail,
+            echo "No match, adding new game.\n";
+            $spill = array(
+                "navn" => $bgg_item->name,
+                "id" => $bgg_item->attributes()->objectid,
+                "utgittår" => $bgg_item->yearpublished,
+                "bilde" => $bgg_item->image,
+                "thumb" => $bgg_item->thumbnail,
                 "antallspillere" => $bgg_stats->minplayers." - ".$bgg_stats->maxplayers,
                 "spilletid" => $bgg_stats->playingtime,
                 "beskrivelse" => "",
                 "destroyed" => "false"
                 );
+            $a++;
         }
-        $spillutvalg[] = $spill_spill;
+        $spillutvalg[] = $spill;
     }
     
-    foreach($spill_local_simplexml->spill as $spill_local_spill) {
-        if(!$spill_local_spill->match) {
-            print_r("No match found for game: $spill_local_spill->navn,"
-                    ."id: $spill_local_spill->id. Marked as destroyed.\n");
+    foreach($local_simplexml->spill as $local_spill) {
+        if(!in_array($local_spill, $spillutvalg)) {
+            echo "No match found for game: $local_spill->navn,"
+                    ."id: $local_spill->id. Marked as destroyed.\n";
+            $local_spill->destroyed = "true";
+            $spillutvalg[] = $local_spill;
+            $r++;
         }
     }
     
    
-    print_r("\n\n");
+    echo "\n\n";
     
     $output_xml = "<?xml version='1.0' encoding='UTF-8'?>\n<root>\n";
     foreach($spillutvalg as $spill) {
@@ -89,23 +94,24 @@
     }
     $output_xml .= "</root>";
     
-    print_r("DATA:\n".htmlspecialchars($output_xml)."\n\n");
+    echo "DATA:\n".htmlspecialchars($output_xml)."\n\n";
     
     rename("spill.xml", "spill.xml.old");
-    print_r("renaming spill.xml -> spill.xml.old\n");
+    echo "renaming spill.xml -> spill.xml.old\n";
     if (file_put_contents("spill.xml", $output_xml) === false) {
         rename("spill.xml.old", "spill.xml");
-        print_r("file_put_contents failed. renaming spill.xml.old -> spill.xml\n");
+        echo "file_put_contents failed. renaming spill.xml.old -> spill.xml\n";
     }
     else {
         unlink("spill.xml.old");
-        print_r("file_put_contents successful. deleting spill.xml.old\n");
+        echo "file_put_contents successful. deleting spill.xml.old\n";
     }
     
     
-    echo "\nSpillioversikten er oppdatert";
+    echo "\nSpillioversikten er oppdatert\nAntall lagt til: $a\nAntall fjernet: $r\n"
+            . "Totalt antall etter oppdatering: ".count($spillutvalg);
 ?>
 </pre>
-<p>Gå til <a href="http://terningkast7.org/test/?p=spill">SPILLOVERSIKTEN</a> for å se resultatet.</p>
+<p>Gå til <a href="../?p=spill">SPILLOVERSIKTEN</a> for å se resultatet.</p>
 </div></body>
 </html>
